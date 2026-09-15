@@ -1,6 +1,6 @@
 ---
-name: api-feature-plan
-description: "Before implementing a feature, document each required API endpoint and its ordered user scenarios in natural Persian. Activate automatically for feature work or explicitly when the user sends /full-plan; not for small internal refactors with no API behavior."
+name: full-plan
+description: "Before implementing a feature, document each required API endpoint and its ordered user scenarios in natural Persian. Activate automatically for feature work or explicitly with /full-plan; not for small internal refactors with no API behavior."
 ---
 
 # طرح API برای فیچر

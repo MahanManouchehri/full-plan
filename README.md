@@ -1,8 +1,8 @@
-# API Feature Plan
+# Full Plan
 
 <div dir="rtl">
 
-`api-feature-plan` یک Skill سراسری برای Codex است که پیش از پیاده‌سازی فیچرهای APIمحور، قرارداد endpointها و سناریوهای واقعی استفاده از آن‌ها را به فارسی روشن و فنی آماده می‌کند.
+`full-plan` یک Skill سراسری برای Codex است که پیش از پیاده‌سازی فیچرهای APIمحور، قرارداد endpointها و سناریوهای واقعی استفاده از آن‌ها را به فارسی روشن و فنی آماده می‌کند.
 
 هدف این است که پیش از تغییر کد، همهٔ افراد درگیر بدانند هر endpoint چه ورودی می‌گیرد، چه رفتاری دارد، چه پاسخی برمی‌گرداند و در کدام گام از جریان کار استفاده می‌شود.
 
@@ -20,7 +20,7 @@
 
 ```text
 .
-├── SKILL.md                 # دستورالعمل اصلی Skill
+├── SKILL.md                 # دستورالعمل اصلی Skill با نام full-plan
 ├── agents/openai.yaml       # نام و توضیح نمایشی Skill
 ├── docs/
 │   ├── INSTALLATION.md       # نصب و به‌روزرسانی سراسری
@@ -36,7 +36,7 @@
 برای نصب سراسری در Windows، در PowerShell اجرا کنید:
 
 ```powershell
-git clone https://github.com/MahanManouchehri/api-feature-plan.git "C:\Users\<your-user>\.codex\skills\api-feature-plan"
+git clone https://github.com/MahanManouchehri/full-plan.git "C:\Users\<your-user>\.codex\skills\full-plan"
 ```
 
 پس از نصب، یک task جدید باز کنید تا Codex فهرست Skillها را دوباره بارگذاری کند. جزئیات نصب، به‌روزرسانی و رفع تداخل در [راهنمای نصب](docs/INSTALLATION.md) آمده است.
@@ -52,14 +52,14 @@ git clone https://github.com/MahanManouchehri/api-feature-plan.git "C:\Users\<yo
 یا به‌صورت مستقیم از نام Skill استفاده کنید:
 
 ```text
-$api-feature-plan
+$full-plan
 ```
 
 برای اینکه این جریان در یک پروژه اجباری شود، دستورالعمل نمونهٔ زیر را در `AGENTS.md` پروژه یا فایل سراسری Codex اضافه کنید:
 
 ```markdown
 Before designing or implementing an API-backed feature, load and follow the
-global `api-feature-plan` skill. Treat `/full-plan` as an explicit request to
+global `full-plan` skill. Treat `/full-plan` as an explicit request to
 run the complete planning flow, and do not start implementation until the user
 has confirmed the plan.
 ```

@@ -4,6 +4,13 @@ All notable changes to this project are documented in this file.
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-09-15
+
+### Changed
+
+- Renamed the skill and repository from `api-feature-plan` to `full-plan`.
+- Updated the explicit native invocation to `$full-plan` and retained `/full-plan` as the instruction trigger.
+
 ## [1.0.0] - 2026-09-15
 
 ### Added

@@ -26,7 +26,7 @@
 پس از تغییر، این موارد را کنترل کنید:
 
 ```powershell
-python path\to\quick_validate.py path\to\api-feature-plan
+python path\to\quick_validate.py path\to\full-plan
 git diff --check
 ```
 
