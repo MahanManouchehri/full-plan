@@ -24,8 +24,10 @@
 ├── agents/openai.yaml       # نام و توضیح نمایشی Skill
 ├── docs/
 │   ├── INSTALLATION.md       # نصب و به‌روزرسانی سراسری
+│   ├── PLATFORM-COMPATIBILITY.md # سازگاری و نصب پلتفرم‌ها
 │   ├── USAGE.md              # روش استفاده و الگوی خروجی
 │   └── OUTPUT-FORMAT.md      # قالب جزئی قرارداد endpoint و سناریو
+├── platforms/                 # adapterهای ChatGPT و Claude
 ├── CHANGELOG.md              # تغییرات نسخه‌ها
 ├── CONTRIBUTING.md           # راهنمای مشارکت
 └── LICENSE                   # مجوز MIT
@@ -65,6 +67,10 @@ has confirmed the plan.
 ```
 
 راهنمای کامل و نمونهٔ خروجی در [راهنمای استفاده](docs/USAGE.md) و [قالب خروجی](docs/OUTPUT-FORMAT.md) قرار دارد.
+
+## ChatGPT و Claude
+
+این مخزن adapterهای جداگانه برای ChatGPT Skills، ChatGPT Custom GPT، Claude Code و Claude Web دارد. روش درست نصب و محدودیت هر پلتفرم در [راهنمای سازگاری پلتفرم‌ها](docs/PLATFORM-COMPATIBILITY.md) توضیح داده شده است.
 
 ## دامنه
 
